@@ -1,19 +1,23 @@
 import React from 'react';
-
 import { Link } from 'react-router-dom';
 
+import NavLinks from './Navlinks';
 // Styles
-import { Container } from '../styles/Navigation.styles';
+import { NavContainer, NavLinksWrapper } from '../styles/Navigation.styles';
 // Images
+import logo from '../images/shared/desktop/logo.svg';
+import open from '../images/shared/mobile/menu.svg';
+import close from '../images/shared/mobile/close.svg';
 
 const Navigation = () => {
   return (
-    <Container>
-      <Link to="/">Main</Link>
-      <Link to="/Stories">Stories</Link>
-      <Link to="/features">features</Link>
-      <Link to="/pricing">Pricing</Link>
-    </Container>
+    <NavContainer>
+      <Link to="/">
+        <img src={logo} alt="logo" />
+      </Link>
+
+      <NavLinks />
+    </NavContainer>
   );
 };
 

@@ -1,16 +1,16 @@
-import { GlobalStyles } from './styles/GlobalSyles';
+import { GlobalStyle } from './styles/GlobalStyle';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Components
-import { Navigation } from './components';
+import { Nav, Footer } from './components';
 // Pages
 import { Home, Stories, Features, Pricing } from './pages';
 
 function App() {
   return (
     <Router>
-      <Navigation />
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/stories" element={<Stories />} />
@@ -18,7 +18,8 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
       </Routes>
 
-      <GlobalStyles />
+      <Footer />
+      <GlobalStyle />
     </Router>
   );
 }

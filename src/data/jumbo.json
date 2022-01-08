@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Create and share your photo stories",
+    "subTitle": "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others",
+    "button": "Get an invite",
+    "imageDesk": "../images/home/desktop/create-and-share.jpg",
+    "imageTablet": "../images/home/tablet/create-and-share.jpg",
+    "imageMobile": "../images/home/mobile/create-and-share.jpg",
+    "alt": "Create and share png",
+    "direction": "row"
+  },
+  {
+    "id": 2,
+    "title": "Beatiful Stories Every time ",
+    "subTitle": "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
+    "button": "View the stories",
+    "imageDesk": "../images/home/desktop/beautiful-stories.jpg",
+    "imageTablet": "../images/home/tablet/beautiful-stories.jpg",
+    "imageMobile": "../images/home/mobile/beautiful-stories.jpg",
+    "alt": "Beautiful stories png",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 3,
+    "title": "Designed for everyone ",
+    "subTitle": "Photosnap can help you create stories that resonate with your audience. Our tool is designed for photographers of all levels, brands, businesses you name it.",
+    "button": "View the stories",
+    "imageDesk": "../images/home/desktop/designed-for-everyone.jpg",
+    "imageTablet": "../images/home/tablet/designed-for-everyone.jpg",
+    "imageMobile": "../images/home/mobile/designed-for-everyone.jpg",
+    "alt": "Beautiful stories png",
+    "direction": "row-reverse"
+  }
+]

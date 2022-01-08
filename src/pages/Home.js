@@ -1,8 +1,13 @@
 import React from 'react';
-// import { Nav } from '../components';
+
+import JumbotronContainer from '../containers/jumbotron';
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <JumbotronContainer />
+    </div>
+  );
 };
 
 export default Home;

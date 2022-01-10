@@ -35,7 +35,8 @@ export const NavWrap = styled.nav`
     }
     .nav-hidden {
       position: absolute;
-      top: 10%;
+      height: 30rem;
+      top: 7%;
       left: 0;
       display: flex;
       flex-direction: column;
@@ -66,7 +67,12 @@ export const NavLink = styled(Link)`
     padding: 1rem;
   }
 `;
-export const NavMenu = styled.div``;
+export const NavMenu = styled.div`
+  @media (max-width: 712px) {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
+`;
 export const MobileMenu = styled.div`
   z-index: 10;
   cursor: pointer;

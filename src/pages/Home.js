@@ -1,12 +1,16 @@
-import React from 'react';
-
+import React, { useState } from 'react';
+import { Hero, Features } from '../components';
 import JumbotronContainer from '../containers/jumbotron';
+import { ThumbnailHome } from '../containers/thumbnailHome';
 
 const Home = () => {
   return (
-    <div>
+    <>
+      <Hero />
       <JumbotronContainer />
-    </div>
+      <ThumbnailHome />
+      <Features />
+    </>
   );
 };
 

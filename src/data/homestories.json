@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "The Mountains",
+    "author": "John Appleseed",
+    "date": "April 16th 2020",
+    "image": "mountains.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Sunset Cityscapes",
+    "author": "Benjamin Cruz",
+    "date": "April 14th 2020",
+    "image": "cityscapes.jpg"
+  },
+  {
+    "id": 3,
+    "title": "18 Days Voyage",
+    "author": "Alexei Borodin",
+    "date": "April 11th 2020",
+    "image": "18-days-voyage.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Architecturals",
+    "author": "Samantha Brooke",
+    "date": "April 9th 2020",
+    "image": "architecturals.jpg"
+  }
+]

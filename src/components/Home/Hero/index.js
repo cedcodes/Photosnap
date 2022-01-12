@@ -1,33 +1,3 @@
-// import React from 'react';
-// import homedata from '../../data/home.json';
-// import { useMediaQuery } from '@react-hook/media-query';
-
-// import {
-//   HeroWrapper,
-//   HeroPane,
-//   HeroTitle,
-//   HeroSubTitle,
-//   HeroImage,
-//   HeroButton,
-// } from './Hero.styles';
-// const Hero = () =>
-
-//    {homedata.map((item) => (
-// <HeroWrapper>
-//   {/*Container  */}
-//   <HeroPane>
-//     <HeroTitle></HeroTitle>
-//     <HeroSubTitle></HeroSubTitle>
-//     <HeroButton></HeroButton>
-//      {mobile ? '' : <HeroImage src={item.heroimageMobile} />}
-//       {tablet ? <HeroImage src={item.heroimageMobile} /> : ''}
-//       {desktop ? '' : <HeroImage src={item.heroimageDesk} />}
-//   </HeroPane>
-// </HeroWrapper>;
-//   ));
-// };
-
-// export default Hero;
 import React from 'react';
 import { useMediaQuery } from '@react-hook/media-query';
 

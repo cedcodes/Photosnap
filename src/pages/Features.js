@@ -1,7 +1,12 @@
 import React from 'react';
+import { FeaturesHero, FeaturesGrid } from '../components';
 
 const Features = () => {
-  return <div>Features</div>;
+  return (
+    <>
+      <FeaturesHero />
+      <FeaturesGrid />
+    </>
+  );
 };
-
 export default Features;

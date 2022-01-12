@@ -1,0 +1,58 @@
+import React from 'react';
+import styled from 'styled-components';
+import { ReactComponent as Arrow } from '../../images/shared/desktop/arrow-white.svg';
+const Wrapper = styled.div`
+  div {
+    background: url(../../images/shared/desktop/bg-beta.jpg) no-repeat;
+    background-size: cover;
+    padding: 6.4rem 3.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: left;
+      h2 {
+        width: 100%;
+      }
+      a {
+        padding: 2rem 0;
+        width: 100%;
+      }
+    }
+  }
+  h2,
+  a {
+    color: var(--white);
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 4rem;
+    width: 50%;
+  }
+  a {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    .arrow {
+      margin-left: 3rem;
+    }
+  }
+`;
+
+const PricingFooter = () => {
+  return (
+    <Wrapper>
+      <div>
+        <h2> We’re in beta. Get your invite today!</h2>
+        <a href="#">
+          Get an invite <Arrow className="arrow" />
+        </a>
+      </div>
+    </Wrapper>
+  );
+};
+
+export default PricingFooter;

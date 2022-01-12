@@ -11,7 +11,7 @@ const FeatureCardWrapper = styled.div`
     flex-direction: column;
   }
 `;
-const Features = () => {
+const FeaturesHome = () => {
   return (
     <FeatureCardWrapper>
       <FeatureCard
@@ -36,4 +36,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default FeaturesHome;

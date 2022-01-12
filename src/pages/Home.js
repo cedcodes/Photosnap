@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Hero, Features } from '../components';
+import { Hero, FeaturesHome } from '../components';
 import JumbotronContainer from '../containers/jumbotron';
 import { ThumbnailHome } from '../containers/thumbnailHome';
 
@@ -9,7 +9,7 @@ const Home = () => {
       <Hero />
       <JumbotronContainer />
       <ThumbnailHome />
-      <Features />
+      <FeaturesHome />
     </>
   );
 };

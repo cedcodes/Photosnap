@@ -26,7 +26,6 @@ const Wrapper = styled.div`
     }
   }
 `;
-
 const FeatureCard = ({ image, heading, subheading }) => (
   <Wrapper>
     <div className="img-wrapper">

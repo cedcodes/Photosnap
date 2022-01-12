@@ -9,7 +9,30 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    &::before {
+      content: ' ';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      width: 0.7rem;
+      height: 100%;
+      background: linear-gradient(180deg, #ffc694, #bc7198, #5776ff);
+    }
+
     @media (max-width: 768px) {
+      &::before {
+        content: ' ';
+        position: absolute;
+        top: 3px;
+        transform: translateY(-50%);
+        left: 5rem;
+        width: 15rem;
+        height: 5px;
+        background: linear-gradient(90deg, #ffc694, #bc7198, #5776ff);
+      }
+
       flex-direction: column;
       text-align: left;
       h2 {
